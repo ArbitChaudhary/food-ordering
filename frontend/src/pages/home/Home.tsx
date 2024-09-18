@@ -3,7 +3,6 @@ import Banner from "../../assets/bg-1.jpg"
 import Burger from "../../assets/Burger.png"
 import Pizza from "../../assets/Pizza.png"
 import Biryani from "../../assets/Chicken Biryani.jpg"
-import Link from "@mui/material"
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import Image1 from "../../assets/downtown.jpg";
@@ -237,7 +236,7 @@ const Home = () => {
                                         </Typography>
                                         <Box sx={{display:"flex", justifyContent:"space-between", gap:1, alignItems:"flex-end"}}>
                                             <Box sx={{display:"flex", flexDirection:"column"}}>
-                                                <Typography sx={{fontSize:14, fontWeight:600, color:"gray"}}><strike>$ 55.00</strike></Typography>
+                                                <Typography sx={{fontSize:14, fontWeight:600, color:"gray"}}><s>$ 55.00</s></Typography>
                                                 <Typography sx={{fontSize:14, fontWeight:600, color:'red'}}>$ 45.00</Typography>
                                             </Box>
                                             <CardActions>

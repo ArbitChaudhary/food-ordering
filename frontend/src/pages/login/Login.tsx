@@ -27,7 +27,7 @@ const Login = () => {
               <img src={Logo} alt="" className="h-10 w-20 object-cover"/>
               <Box sx={{}}>
                 <Typography fontSize={35} fontWeight={600} color={"white"}> Get Your </Typography>
-                <Typography fontSize={35} fontWeight={600} color={"white"}> Fevorite Food </Typography>
+                <Typography fontSize={35} fontWeight={600} color={"white"}> Favorite Food </Typography>
               </Box>
             </Box>
             <Box sx={{display:"flex", width:"calc(50% - 15px)"}}>
