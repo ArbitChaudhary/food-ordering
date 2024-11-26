@@ -1,10 +1,5 @@
-
 function MenuPage() {
-  return (
-    <div className="min-h-screen w-screen">
-      Menu
-    </div>
-  );
+  return <div className="min-h-screen">Menu</div>;
 }
 
 export default MenuPage;

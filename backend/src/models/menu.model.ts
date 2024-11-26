@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 export interface menuItem {
   _id: string;
   name: string;
-  images: string;
+  menuImage: string;
   price: number;
   offer: number;
   description: string;
@@ -16,18 +16,20 @@ const menuSchema = new mongoose.Schema<menuItem>(
   {
     name: {
       type: String,
-      required: true,
+      // required: true,
     },
     category: {
       type: String,
-      required: true,
+      // required: true,
     },
-    images: {
-      type: String,
-    },
+    menuImage: [
+      {
+        type: String,
+      },
+    ],
     price: {
       type: Number,
-      required: true,
+      // required: true,
       min: 1,
     },
     offer: {
@@ -37,7 +39,7 @@ const menuSchema = new mongoose.Schema<menuItem>(
     },
     description: {
       type: String,
-      required: true,
+      // required: true,
       maxlength: 500,
     },
   },
